@@ -5,5 +5,6 @@ This is an implementation of [Using Word2vec for Music Recommendations](https://
 We use fastText and the [LastFm DataSet](http://mtg.upf.edu/static/datasets/last.fm/lastfm-dataset-1K.tar.gz).
 
 ## Steps
+Make sure you have fastText installed.
 * Clone the repo.
-* Run start.sh
+* Run start.sh fasttext-dir/fasttext
