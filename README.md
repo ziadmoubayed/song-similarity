@@ -8,3 +8,8 @@ We use fastText and the [LastFm DataSet](http://mtg.upf.edu/static/datasets/last
 Make sure you have fastText installed.
 * Clone the repo.
 * Run start.sh fasttext-dir/fasttext
+
+You will get <strong>songs-model.bin</strong> when the training finishes.
+Use it to predict nearest neigbors.
+
+`fasttext nn songs-model.bin`
